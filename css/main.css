@@ -3,6 +3,7 @@
 body {
     margin:0;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 
 p, blockquote {
@@ -336,8 +337,9 @@ nav ul li a:hover{
         nav ul li a {
             color: black;
             background-color: inherit;
-            text-align: right;
-            padding: 1em 2em;
+            text-align: center;
+            padding: 1em;
+            margin: 0 30px
         }
 
         nav ul li:hover {
